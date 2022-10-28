@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="icon" href="#">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="menu menu-fixed">
+        <a class="logo" href="#body">
+          <img class="logo__img" src="images/logo.svg" width="#" height="#" alt="логотип SimpleFood">
+        </a>
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link menu__link--active" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" target="_blank" href="#">
+              Блюда
+            </a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+        <ul class="user-nav">
+          <li class="user-nav__item">
+            <button class="user-nav__btn" type="button">
+              <svg class="user-nav__icon">
+                <use xlink:href="images/sprite.svg#search"></use>
+              </svg>
+              <span class="sr-only">кнопка поиска</span>
+            </button>
+          </li>
+          <li class="user-nav__item">
+            <button class="user-nav__btn" type="button">
+              <svg class="user-nav__icon">
+                <use xlink:href="images/sprite.svg#cart"></use>
+              </svg>
+              <span class="user-nav__num">4</span>
+              <span class="sr-only">корзина товаров</span>
+            </button>
+          </li>
+        </ul>
+        <button class="burger" type="button">
+          <span class="burger__line"></span>
+          <span class="sr-only">Мобильное меню</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <main class="main">
+      main content
+
+
+      <!-- <div class="accordion">
+        <div class="accordion__item">
+          <div class="accordion__item-top one">
+            <h4 class="accordion__item-title">
+              How long should a car repair take ?
+            </h4>
+            <button class="accordion__item-trigger">
+            </button>
+          </div>
+          <p class="accordion__item-content">
+            I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+            they repair my car
+            I have got my car repaired at Finsweet I have got my car repaired at Finsweet
+          </p>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-top">
+            <h4 class="accordion__item-title">
+              How do I schedule my car's appointment ?
+            </h4>
+            <button class="accordion__item-trigger">
+            </button>
+          </div>
+          <p class="accordion__item-content">
+            I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+            they repair my car
+            I have got my car repaired at Finsweet I have got my car repaired at Finsweet
+          </p>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-top">
+            <h4 class="accordion__item-title">
+              What are the repair services provided?
+            </h4>
+            <button class="accordion__item-trigger">
+            </button>
+          </div>
+          <p class="accordion__item-content">
+            I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+            they repair my car
+            I have got my car repaired at Finsweet I have got my car repaired at Finsweet
+          </p>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-top">
+            <h4 class="accordion__item-title">
+              How do I find auto body shops near me?
+            </h4>
+            <button class="accordion__item-trigger">
+            </button>
+          </div>
+          <p class="accordion__item-content">
+            I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+            they repair my car
+            I have got my car repaired at Finsweet I have got my car repaired at Finsweet
+          </p>
+        </div>
+        <div class="accordion__item">
+          <div class="accordion__item-top">
+            <h4 class="accordion__item-title">
+              Genuine spare parts during car repair?
+            </h4>
+            <button class="accordion__item-trigger">
+            </button>
+          </div>
+          <p class="accordion__item-content">
+            I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+            they repair my car
+            I have got my car repaired at Finsweet I have got my car repaired at Finsweet
+          </p>
+        </div>
+      </div> -->
+
+      <!-- <div class="tabs">
+        <div class="tabs__content">
+          <div id="tab-1" class="tabs__content-item tabs__content-item_active">
+            <img class="tabs__content-img" src="images/services/img2.jpg" alt="foto car">
+            <h2 class="tabs__content-title title-l">
+              Auto Diagnostics
+            </h2>
+            <p class="tabs__content-text">
+              Through True Rich Attended does no end it his mother since favourable real had half every him case in
+              packages enquire
+              we up ecstatic. Through True Rich Attended does no end it his mother.
+            </p>
+            <a class="tabs__content-link" target=" _blank"
+              href="https://kob-finsweet.netlify.app/single-diagnostics.html">
+              See service details
+              <svg class="tabs__content-icon arrow">
+                <use xlink:href="images/sprite.svg#arrow-big"></use>
+              </svg>
+            </a>
+          </div>
+          <div id="tab-2" class="tabs__content-item">
+            <img class="tabs__content-img" src="images/services/eng.jpg" alt="foto car">
+            <h2 class="tabs__content-title title-l">
+              Engin Repair
+            </h2>
+            <p class="tabs__content-text">
+              Through True Rich Attended does no end it his mother since favourable real had half every him case in
+              packages enquire
+              we up ecstatic. Through True Rich Attended does no end it his mother.
+            </p>
+            <a class="tabs__content-link" href="#">
+              See service details
+              <svg class="tabs__content-icon arrow">
+                <use xlink:href="images/sprite.svg#arrow-big"></use>
+              </svg>
+            </a>
+          </div>
+          <div id="tab-3" class="tabs__content-item">
+            <img class="tabs__content-img" src="images/info-img1.jpg" alt="foto car">
+            <h2 class="tabs__content-title title-l">
+              Body Work
+            </h2>
+            <p class="tabs__content-text">
+              Through True Rich Attended does no end it his mother since favourable real had half every him case in
+              packages enquire
+              we up ecstatic. Through True Rich Attended does no end it his mother.
+            </p>
+            <a class="tabs__content-link" href="#">
+              See service details
+              <svg class="tabs__content-icon arrow">
+                <use xlink:href="images/sprite.svg#arrow-big"></use>
+              </svg>
+            </a>
+          </div>
+          <div id="tab-4" class="tabs__content-item">
+            <img class="tabs__content-img" src="images/services/batteries.jpg" alt="foto car">
+            <h2 class="tabs__content-title title-l">
+              Batteries
+            </h2>
+            <p class="tabs__content-text">
+              Through True Rich Attended does no end it his mother since favourable real had half every him case in
+              packages enquire
+              we up ecstatic. Through True Rich Attended does no end it his mother.
+            </p>
+            <a class="tabs__content-link" href="#">
+              See service details
+              <svg class="tabs__content-icon arrow">
+                <use xlink:href="images/sprite.svg#arrow-big"></use>
+              </svg>
+            </a>
+          </div>
+          <div id="tab-5" class="tabs__content-item">
+            <img class="tabs__content-img" src="images/services/wash.jpg" alt="foto car">
+            <h2 class="tabs__content-title title-l">
+              Car wash
+            </h2>
+            <p class="tabs__content-text">
+              Through True Rich Attended does no end it his mother since favourable real had half every him case in
+              packages enquire
+              we up ecstatic. Through True Rich Attended does no end it his mother.
+            </p>
+            <a class="tabs__content-link" href="#">
+              See service details
+              <svg class="tabs__content-icon arrow">
+                <use xlink:href="images/sprite.svg#arrow-big"></use>
+              </svg>
+            </a>
+          </div>
+          <div id="tab-6" class="tabs__content-item">
+            <img class="tabs__content-img" src="images/info-img2.jpg" alt="foto car">
+            <h2 class="tabs__content-title title-l">
+              AC Repair
+            </h2>
+            <p class="tabs__content-text">
+              Through True Rich Attended does no end it his mother since favourable real had half every him case in
+              packages enquire
+              we up ecstatic. Through True Rich Attended does no end it his mother.
+            </p>
+            <a class="tabs__content-link" href="#">
+              See service details
+              <svg class="tabs__content-icon arrow">
+                <use xlink:href="images/sprite.svg#arrow-big"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <ul class="tabs__list">
+          <li class="tabs__item">
+            <a class="item-card tabs__link tabs__link_active" href="#tab-1">
+              <svg class="item-card__icon item-card__icon_car">
+                <use xlink:href="images/sprite.svg#car"></use>
+              </svg>
+              <span class="item-card__text">
+                Diagnostics
+              </span>
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a class="item-card tabs__link" href="#tab-2">
+              <svg class="item-card__icon item-card__icon_engine ">
+                <use xlink:href="images/sprite.svg#engine"></use>
+              </svg>
+              <span class="item-card__text">
+                Engine Repair
+              </span>
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a class="item-card tabs__link" href="#tab-3">
+              <svg class="item-card__icon item-card__icon_car2">
+                <use xlink:href="images/sprite.svg#car"></use>
+              </svg>
+              <span class="item-card__text">
+                Body Work
+              </span>
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a class="item-card tabs__link" href="#tab-4">
+              <svg class="item-card__icon item-card__icon_batteries">
+                <use xlink:href="images/sprite.svg#batteries"></use>
+              </svg>
+              <span class="item-card__text">
+                Batteries
+              </span>
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a class="item-card tabs__link" href="#tab-5">
+              <svg class="item-card__icon item-card__icon_car">
+                <use xlink:href="images/sprite.svg#car"></use>
+              </svg>
+              <span class="item-card__text">
+                Car wash
+              </span>
+            </a>
+          </li>
+          <li class="tabs__item">
+            <a class="item-card tabs__link" href="#tab-6">
+              <svg class="item-card__icon item-card__icon_engine ">
+                <use xlink:href="images/sprite.svg#engine"></use>
+              </svg>
+              <span class="item-card__text">
+                AC Repair
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div> -->
+
+      <!-- <ul class="slider">
+        <li class="slider__item">
+          <div class="slider__inner">
+            <div class="slider__top">
+              <img class="slider__img" src="images/avatar1.jpg" alt="avatar Jonathan Vallem" width="64" height="64">
+              <div class="slider__top-content">
+                <span class="slider__name">
+                  Jonathan Vallem
+                </span>
+                <span class="slider__city">
+                  New york
+                </span>
+              </div>
+            </div>
+            <p class="slider__text">
+              I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+              they repair my car
+              in a short comprehensive look on all the working
+            </p>
+          </div>
+        </li>
+        <li class="slider__item">
+          <div class="slider__inner">
+            <div class="slider__top">
+              <img class="slider__img" src="images/avatar2.jpg" alt="avatar Jonathan Vallem" width="64" height="64">
+              <div class="slider__top-content">
+                <span class="slider__name">
+                  Smith Johnson
+                </span>
+                <span class="slider__city">
+                  Seattle
+                </span>
+              </div>
+
+            </div>
+            <p class="slider__text">
+              I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+              they repair
+              my car
+              in a short comprehensive look on all the working
+            </p>
+          </div>
+        </li>
+        <li class="slider__item">
+          <div class="slider__inner">
+            <div class="slider__top">
+              <img class="slider__img" src="images/avatar1.jpg" alt="avatar Jonathan Vallem" width="64" height="64">
+              <div class="slider__top-content">
+                <span class="slider__name">
+                  Jonathan Vallem
+                </span>
+                <span class="slider__city">
+                  New york
+                </span>
+              </div>
+
+            </div>
+            <p class="slider__text">
+              I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+              they repair
+              my car
+              in a short comprehensive look on all the working
+            </p>
+          </div>
+        </li>
+        <li class="slider__item">
+          <div class="slider__inner">
+            <div class="slider__top">
+              <img class="slider__img" src="images/avatar1.jpg" alt="avatar Jonathan Vallem" width="64" height="64">
+              <div class="slider__top-content">
+                <span class="slider__name">
+                  Jonathan Vallem
+                </span>
+                <span class="slider__city">
+                  New york
+                </span>
+              </div>
+
+            </div>
+            <p class="slider__text">
+              I have got my car repaired at Finsweet many times before, they are good at what they do. Not only did
+              they repair
+              my car
+              in a short comprehensive look on all the working
+            </p>
+          </div>
+        </li>
+      </ul> -->
+
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__subscribe">
+            <a class="logo footer__logo" href="#body">
+              <img class="logo__img" src="images/logo.svg" alt="логотип сайта">
+            </a>
+            <form class="footer__form">
+              <label class="footer__label">
+                <input class="footer__input" type="email" name="email" placeholder="Ваш email" required>
+              </label>
+              <button class="footer__btn btn" type="submit">
+                <svg class="footer__icon">
+                  <use xlink:href="images/sprite.svg#subscribe"></use>
+                </svg>
+                Подписаться
+              </button>
+            </form>
+          </div>
+          <div class="footer__inner-second">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Как это работает
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Продукты
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Блюда
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Меню
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  О нас
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Новости
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Партнеры
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  ЧаВо
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Скачать приложение
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Блог
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Что нового?
+                </a>
+              </li>
+              <li class="footer__item">
+                <a class="footer__link" href="#">
+                  Карта сайта
+                </a>
+              </li>
+            </ul>
+            <address class="contacts" id="contacts">
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <a class="contacts__link" target="_blank" href="https://g.page/rola_food_factory?share">
+                    <svg class="contacts__icon">
+                      <use xlink:href="images/sprite.svg#location"></use>
+                    </svg>
+                    ул. Смирнова 2/3
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="tel:79068057043">
+                    <svg class="contacts__icon">
+                      <use xlink:href="images/sprite.svg#calling"></use>
+                    </svg>
+                    79068057043
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="mailto:support@sfood.com">
+                    <svg class="contacts__icon">
+                      <use xlink:href="images/sprite.svg#message"></use>
+                    </svg>
+                    support@sfood.com
+                  </a>
+                </li>
+              </ul>
+              <ul class="social">
+                <li class="social__item">
+                  <a class="social__link" target="_blank" href="https://www.facebook.com/">
+                    <svg class="social__icon">
+                      <use xlink:href="images/sprite.svg#facebook"></use>
+                    </svg>
+                    <span class="sr-only">Ссылка на фейсбук Simple Food</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" target="_blank" href="https://twitter.com/">
+                    <svg class="social__icon">
+                      <use xlink:href="images/sprite.svg#twitter"></use>
+                    </svg>
+                    <span class="sr-only">Ссылка на твиттер Simple Food</span>
+                  </a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link" target="_blank" href="https://www.instagram.com/">
+                    <svg class="social__icon">
+                      <use xlink:href="images/sprite.svg#instagram"></use>
+                    </svg>
+                    <span class="sr-only">Ссылка на инстаграмм Simple Food</span>
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2021 Simple Food</p>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
